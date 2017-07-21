@@ -1,8 +1,5 @@
-<html>
-<head>
-    <title>About</title>
-</head>
-<body>
-    <p>This is about page!</p>
-</body>
-</html>
+@extends("leyout")
+
+    @section("content")
+        <p>This is about page!</p>
+    @endsection
